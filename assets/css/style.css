@@ -11,6 +11,7 @@
 body {
     min-height: 100vh;
     display: flex;
+    position: relative;
     flex-direction: column;
     /* Generic project styles */
     color: #000000;
@@ -99,3 +100,84 @@ main {
 }
 
 /* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    left: 0;
+    right: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact {}
+
+.contacts li {
+    align-items: center;
+    align-content: center;
+}
+
+.social {
+    padding: 2rem;
+}
+
+.social li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* header */
+    h1 {
+        position: relative;
+        display: flex;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+    }
+
+    #main-menu {
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    #main-menu>li {
+        padding-left: 3rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    /* main */
+    main {
+        /* these styles is to push main content down so it's not hidden in big screens */
+        margin-top: 197px;
+    }
+}
+
+/* Media query: Laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    #main-menu a:hover {
+        border-bottom: 1px solid red;
+    }
+}
