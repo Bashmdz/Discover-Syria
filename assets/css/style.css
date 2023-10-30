@@ -90,7 +90,7 @@ nav {
 /* Main */
 
 main {
-    background-color: #273036;
+    background-image: url(assets/images/main-bg-image.webp);
     color: #fff;
     margin-top: 100px;
     display: flex;
@@ -100,36 +100,33 @@ main {
 }
 
 /* Footer */
+iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
 footer {
-    position: absolute;
     bottom: 0;
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    left: 0;
-    right: 0;
 }
 
-ul {
+/* ul {
     list-style: none;
-}
+} */
 
-.contact {}
-
-.contacts li {
+/* .contacts li {
     align-items: center;
     align-content: center;
-}
+} */
 
-.social {
-    padding: 2rem;
-}
-
-.social li {
-    display: inline;
-    margin-left: 1rem;
+#social-icons {
+    list-style-type: none;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 25px 0;
 }
 
 /* Media query: tablets and larger (768px and up) */
