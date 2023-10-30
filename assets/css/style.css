@@ -126,7 +126,7 @@ nav {
 }
 
 .main-index {
-    background-image: url(../images/main-bg-image.webp);
+    /* background-image: url(../images/main-bg-image.webp); */
     background-repeat: no-repeat;
     background-size: 100rem;
 }
