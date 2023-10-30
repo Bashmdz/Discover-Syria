@@ -69,31 +69,56 @@
         </ul>
       </nav>
     </header>
-
-    <main>
-      <section class="about" id="about">
-        <div class="about-container" id="about-container">
-          <div class="about-text" id="about-text">
-            <div>
-              <h1>About Syria</h1>
-              <br />
-              <p>
-                Syria, a country in the Middle East, is known for its rich
-                history and diverse culture.
-              </p>
-              <br />
-              <p>
-                Explore the ancient cities, stunning landscapes, and vibrant
-                traditions that make Syria a unique destination for travelers.
-              </p>
-              <br />
-              <p>
-                Join us on a journey to discover the beauty and heritage of this
-                remarkable country.
-              </p>
-            </div>
-          </div>
-        </div>
+    <!-- Main content -->
+    <main id="main-contact">
+      <video autoplay muted loop class="video-container">
+        <source src="assets/videos/syria-video.mp4" type="video/mp4" />
+      </video>
+      <section id="contact">
+        <form
+          id="contact-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net"
+        >
+          <h2><i class="fa-regular fa-message"></i> Get in touch with us!</h2>
+          <label for="first_name">First Name</label>
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="last_name">Last Name</label>
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="email_address">Email Address</label>
+          <input
+            type="email"
+            name="email_address"
+            id="email_address"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="40"
+            cols="100"
+            class="text-input"
+            required
+          ></textarea>
+          <button type="submit" class="join-button">Send Message</button>
+        </form>
       </section>
     </main>
 
@@ -106,26 +131,9 @@
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
-      <div class="contacts">
-        <ul id="contacts">
-          <li>
-            <span><i class="fas fa-phone"></i></span>
-            <a class="footer-link" href="tel:123-456-7890">123-456-7890</a>
-          </li>
-          <li>
-            <span><i class="fas fa-envelope"></i></span>
-            <a class="footer-link" href="mailto:info@discoversyria.com"
-              >info@discoversyria.com</a
-            >
-          </li>
-          <li>
-            <span><i class="fas fa-location-arrow"></i></span> Discover Syria
-            Damascus Syria
-          </li>
-        </ul>
-      </div>
+
       <div class="social">
-        <ul id="social">
+        <ul id="social-icons">
           <li>
             <a
               href="https://www.facebook.com/"

@@ -89,27 +89,46 @@ nav {
 
 /* Main */
 
-main {
+/* main {
     margin-top: 100px;
     display: flex;
+    flex: 1 0 auto;
     text-align: center;
     flex-direction: column;
     padding: 2rem;
+} */
+#main-contact {
+    margin-top: 100px;
+    display: flex;
+    flex: 1 0 auto;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+#main-index {
+    margin-top: 100px;
+    display: flex;
+    flex: 1 0 auto;
+    text-align: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+#main-gallery {
+    margin-top: 100px;
+    display: flex;
+    flex: 1 0 auto;
+    text-align: center;
+    flex-direction: column;
+    padding: 2rem;
+
 }
 
 .main-index {
     background-image: url(../images/main-bg-image.webp);
     background-repeat: no-repeat;
     background-size: 100rem;
-}
-
-#about-container {
-    background-color: rgba(white, white white, 0.5);
-}
-
-#about {
-    background-color: rgba(white, white white, 0.5);
-
 }
 
 /* Gallery page Style */
@@ -120,6 +139,63 @@ main {
 
 #photos {
     line-height: 0;
+}
+
+/* Form */
+form h2 {
+    text-align: center;
+}
+
+.video-container {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#contact {
+    /* background-image: url("../images/qasioun-mount-.webp"); */
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#contact-form {
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #000000;
+    color: #fafafa;
+}
+
+#message {
+    height: 75px;
 }
 
 /* Footer */
@@ -150,6 +226,16 @@ footer {
     flex-direction: row;
     text-align: center;
     padding: 25px 0;
+}
+
+/* Media query: large or landscape mobiles (576px and up) */
+@media screen and (min-width: 576px) {
+
+    /* gallery */
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -189,9 +275,46 @@ footer {
     }
 
     /* main */
-    main {
+    #main-index {
         /* these styles is to push main content down so it's not hidden in big screens */
         margin-top: 197px;
+    }
+
+    #main-contact {
+        /* these styles is to push main content down so it's not hidden in big screens */
+        margin-top: 197px;
+    }
+
+    #main-gallery {
+        /* these styles is to push main content down so it's not hidden in big screens */
+        margin-top: 197px;
+    }
+
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 100%;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #000000;
+    }
+
+    /* gallery */
+    #photos {
+        column-count: 3;
+        column-gap: 0;
     }
 }
 
@@ -199,5 +322,11 @@ footer {
 @media screen and (min-width: 992px) {
     #main-menu a:hover {
         border-bottom: 1px solid red;
+    }
+
+    /* gallery */
+    #photos {
+        column-count: 4;
+        column-gap: 0;
     }
 }
