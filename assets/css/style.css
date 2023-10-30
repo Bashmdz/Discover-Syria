@@ -90,8 +90,9 @@ nav {
 /* Main */
 
 main {
-    background-image: url(assets/images/main-bg-image.webp);
-    color: #fff;
+    background-image: url(../images/main-bg-image.webp);
+    background-repeat: no-repeat;
+    background-size: 20rem;
     margin-top: 100px;
     display: flex;
     text-align: center;
