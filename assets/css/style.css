@@ -90,14 +90,26 @@ nav {
 /* Main */
 
 main {
-    background-image: url(../images/main-bg-image.webp);
-    background-repeat: no-repeat;
-    background-size: 20rem;
     margin-top: 100px;
     display: flex;
     text-align: center;
     flex-direction: column;
     padding: 2rem;
+}
+
+.main-index {
+    background-image: url(../images/main-bg-image.webp);
+    background-repeat: no-repeat;
+    background-size: 100rem;
+}
+
+#about-container {
+    background-color: rgba(white, white white, 0.5);
+}
+
+#about {
+    background-color: rgba(white, white white, 0.5);
+
 }
 
 /* Footer */
