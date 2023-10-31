@@ -125,6 +125,11 @@ nav {
 
 }
 
+#about-text {
+    padding: 0 5rem;
+    text-align: left;
+}
+
 .main-index {
     /* background-image: url(../images/main-bg-image.webp); */
     background-repeat: no-repeat;
@@ -134,6 +139,7 @@ nav {
 #yt-video {
     width: 800px;
     height: 455px;
+    align-items: center;
 }
 
 /* Gallery page Style */
