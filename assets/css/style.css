@@ -126,8 +126,8 @@ nav {
 }
 
 #about-text {
-    padding: 0 5rem;
-    text-align: left;
+    padding: 0 3rem;
+    text-align: center;
 }
 
 .main-index {
@@ -136,10 +136,12 @@ nav {
     background-size: 100rem;
 }
 
-#yt-video {
-    width: 800px;
-    height: 455px;
-    align-items: center;
+#yt-video-container {
+    position: relative;
+}
+
+#yt-video-container>iframe {
+    margin-top: 2em;
 }
 
 /* Gallery page Style */
@@ -258,7 +260,6 @@ footer {
         position: relative;
         display: flex;
         text-align: center;
-        right: 10rem;
         font-size: 2rem;
     }
 
@@ -350,7 +351,7 @@ footer {
         position: relative;
         display: flex;
         text-align: center;
-        right: 10rem;
+        right: 18rem;
         font-size: 2rem;
     }
 }
