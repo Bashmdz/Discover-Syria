@@ -45,7 +45,7 @@ header a {
 
 }
 
-h1 {
+header h1 {
     text-transform: uppercase;
     letter-spacing: normal;
     font-size: large;
@@ -243,10 +243,11 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* header */
-    h1 {
+    header h1 {
         position: relative;
         display: flex;
         text-align: center;
+        right: 10rem;
         font-size: 2rem;
     }
 
