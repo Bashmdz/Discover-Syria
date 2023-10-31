@@ -131,6 +131,11 @@ nav {
     background-size: 100rem;
 }
 
+#yt-video {
+    width: 800px;
+    height: 455px;
+}
+
 /* Gallery page Style */
 #photos img {
     width: 100%;
@@ -330,5 +335,16 @@ footer {
     #photos {
         column-count: 4;
         column-gap: 0;
+    }
+}
+
+/* Media query: Laptops and larger (1430px and up) */
+@media screen and (min-width: 1430px) {
+    header h1 {
+        position: relative;
+        display: flex;
+        text-align: center;
+        right: 10rem;
+        font-size: 2rem;
     }
 }
