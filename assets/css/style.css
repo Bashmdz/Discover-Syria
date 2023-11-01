@@ -115,13 +115,24 @@ nav {
     padding: 2rem;
 }
 
-#yt-video-div {}
+#about-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
 
-#yt-video-container {}
+#syrian-map {
+    padding-top: 1em;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-repeat: no-repeat;
+}
 
 #yt-video-container>iframe {
     margin-top: 2em;
     height: 300px;
+    bottom: 500px;
 }
 
 #main-gallery {
@@ -261,6 +272,7 @@ footer {
         display: flex;
         text-align: center;
         font-size: 2rem;
+        left: 10px;
     }
 
     nav {
@@ -268,6 +280,7 @@ footer {
         position: relative;
         box-shadow: none;
         width: fit-content;
+        margin-left: 10px;
     }
 
     #main-menu {
@@ -286,6 +299,7 @@ footer {
     #logo {
         height: 10rem;
         width: 10rem;
+        margin-left: 10px;
     }
 
     /* main */
@@ -352,29 +366,65 @@ footer {
 
 /* Media query: Laptops and larger (1280px and up) */
 @media screen and (min-width: 1280px) {
+    header h1 {
+        left: -5rem;
+    }
+
     .video-container {
         position: absolute;
         width: 2000px;
         z-index: -1;
         opacity: 0.8;
+        bottom: 18rem;
+    }
+
+    #about-text {
+        display: flex;
+        flex-direction: row;
+        font-size: larger;
+    }
+
+    #about-text>p {
+        padding: 2em;
+    }
+
+    #syrian-map {
+        padding-left: 1em;
     }
 }
 
-/* Media query: Laptops and larger (1400px and up) */
-@media screen and (min-width: 1400px) {
+/* Media query: Laptops and larger (1480px and up) */
+@media screen and (min-width: 1480px) {
     header h1 {
-        right: 10rem;
+        left: -10rem;
     }
 
     #yt-video-container>iframe {
         margin-top: 2em;
-        height: 800px;
+        height: 900px;
+
+    }
+
+    #about-text {
+        display: flex;
+        flex-direction: row;
+        font-size: largerer;
     }
 }
 
 /* Media query: Laptops and larger (1800px and up) */
 @media screen and (min-width: 1800px) {
     header h1 {
-        right: 18rem;
+        left: -18rem;
+    }
+
+    #about-text {
+        font-size: 25px;
+    }
+
+    #yt-video-container>iframe {
+        margin-top: 2em;
+        height: 1000px;
+
     }
 }
