@@ -408,7 +408,7 @@ footer {
     #about-text {
         display: flex;
         flex-direction: row;
-        font-size: largerer;
+        font-size: larger;
     }
 }
 
