@@ -53,12 +53,57 @@ This is the static website about the country Syria, the home page talks about Sy
     - [Content](#content)
     - [ Media](#media)
     - [Acknowledgments](#acknowledgments)
+- [Discover Syria](#discover-syria-1)
+  - [CONTENTS](#contents-1)
+  - [Target Audience](#target-audience-1)
+  - [User Stories](#user-stories-1)
+    - [As a Traveler](#as-a-traveler-1)
+    - [Contacting and Inquiry](#contacting-and-inquiry-1)
+    - [Optimized User-Friendliness](#optimized-user-friendliness-1)
+  - [Design](#design-1)
+    - [Colour Scheme](#colour-scheme-1)
+    - [Typography](#typography-1)
+    - [Wireframes](#wireframes-1)
+    - [Home](#home-1)
+    - [Gallery](#gallery-1)
+    - [Contact us](#contact-us-1)
+    - [Mobile view](#mobile-view-1)
+  - [Features](#features-1)
+    - [General features on each page](#general-features-on-each-page-1)
+    - [Navbar](#navbar-1)
+    - [Footer with social media icons](#footer-with-social-media-icons-1)
+  - [Features by page](#features-by-page-1)
+    - [Landing page](#landing-page-1)
+    - [Gallery Page](#gallery-page-2)
+    - [Contact us page](#contact-us-page-1)
+    - [Future Implementations](#future-implementations-1)
+    - [Accessibility](#accessibility-1)
+  - [Technologies Utilized](#technologies-utilized-1)
+    - [Languages Used](#languages-used-1)
+    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used-1)
+  - [Deployment \& Local Development](#deployment--local-development-1)
+    - [Deployment](#deployment-1)
+    - [Local Development](#local-development-1)
+      - [How to Clone](#how-to-clone-1)
+  - [Testing](#testing-1)
+  - [Manual Testing](#manual-testing-1)
+    - [W3C Validator](#w3c-validator-1)
+    - [Lighthouse](#lighthouse-1)
+    - [Index page](#index-page-1)
+    - [Gallery page](#gallery-page-3)
+    - [Contact page](#contact-page-1)
+    - [Full Testing](#full-testing-1)
+  - [Credits](#credits-1)
+    - [Code Used](#code-used-1)
+    - [Content](#content-1)
+    - [ Media](#media-1)
+    - [Acknowledgments](#acknowledgments-1)
 
 ---
 
 ## Target Audience
 
-The "Discover Syria" website is designed to cater to a diverse range of travelers and individuals interested in exploring the captivating country of Syria. Whether you're a tourist seeking new adventures, a history enthusiast eager to delve into the country's past, a culture lover interested in art and local traditions, or a culinary explorer eager to savor Syrian cuisine, our platform is your gateway to a world of rich experiences. We welcome families, solo travelers, business professionals, students, and researchers, as well as humanitarian workers and global citizens with open hearts and open minds. "Discover Syria" is here to provide essential information, itineraries, and travel resources, ensuring that your journey to Syria is not only memorable but also educational and culturally immersive.
+The "Discover Syria" website is for all kinds of travelers and anyone interested in Syria. Whether you're a tourist, history enthusiast, culture lover, or foodie, our platform is your guide to Syria. It's open to families, solo travelers, professionals, students, researchers, and anyone with an open heart and mind. "Discover Syria" offers information, itineraries, and travel resources to make your trip educational and culturally immersive.
 
 ## User Stories
 
@@ -70,7 +115,7 @@ I aim to gain a deep understanding of what Syria has to offer. My carefully cura
 
 ### Contacting and Inquiry
 
-I prioritize making it simple for you to get in touch with us. Our "Contact Us" page features a user-friendly contact form and all the necessary contact details. Whether you have inquiries, need assistance, or seek additional information, our platform is designed to facilitate effortless communication.
+I prioritize making it simple for you to get in touch with us. my "Contact Us" page features a user-friendly contact form and all the necessary contact details. Whether you have inquiries, need assistance, or seek additional information, my platform is designed to facilitate effortless communication.
 
 ### Optimized User-Friendliness
 
@@ -88,25 +133,25 @@ The color scheme of #000000 (black), #FFFFFF (white), and #C4C4C4 (light gray) w
 
 We've selected the Libre Baskerville font for its clean, modern, and approachable look. It brings a sense of timeless elegance to our "Discover Syria" website while ensuring a pleasant reading experience for our visitors.
 
-![alt text]()<br>
+![alt text](readme-assets/Font.png)<br>
 
 ### Wireframes
 
 ### Home
 
-![alt text]()<br>
+![alt text](readme-assets/Home.png)<br>
 
 ### Gallery
 
-![alt text]()<br>
+![alt text](readme-assets/Gallery.png)<br>
 
 ### Contact us
 
-![alt text]()<br>
+![alt text](readme-assets/Contact us.png)<br>
 
 ### Mobile view
 
-![alt text]()<br>
+![alt text](readme-assets/Mobile view.png)<br>
 
 Balsamiq was used to design the wireframes
 
@@ -116,22 +161,19 @@ Balsamiq was used to design the wireframes
 
 ### Navbar
 
-I used a navbar from Bootstrap, below are two views of the desktop view and the responsive mobile view that transforms into a hamburger menu. The text is bolder for the naviation text that the user is currently on.
-
-![alt text]()
+I have coded my Navbar in html and css, and used the guide of Love running project to make it responive on mobile phones.
 
 Desktop version nav bar with menu
 
-![alt text]()
+![alt text](readme-assets/desktopnavbar.png)
 
 Mobile version nav bar hamburger menu
-
+![alt text](readme-assets/Menu 1.png)
 ### Footer with social media icons
 
 I added three social media icons for instagram, facebook and twitter.
 
-![alt text]()
-![alt text]()
+![alt text](readme-assets/footer.png)
 
 ## Features by page
 
@@ -139,19 +181,19 @@ I added three social media icons for instagram, facebook and twitter.
 
 On the landing page, you'll dive into the vibrant culture and breathtaking landscapes of Syria through a quick intro. I added a visual map for context and a captivating video that truly captures Syria's essence.
 
-![alt text]()
+![alt text](readme-assets/Home page.png)
 
 ### Gallery Page
 
 The Gallery page highlights various tourism destinations in Syria, focusing on clean aesthetics and a welcoming atmosphere. It offers a glimpse into these locations and the positive vibes they exude. With responsive design, it adapts to various screen sizes, ensuring an enjoyable viewing experience. Get a preview of what's in store at these remarkable destinations in Syria.
 
-![alt text]()
+![alt text](readme-assets/Gallery page.png)
 
 ### Contact us page
 
 The Contact Us page provides a distinctive experience. It hosts a contact form against a looping video backdrop showcasing Syria's beauty. Additionally, the contact button features a hover animation for an engaging touch.
 
-![alt text]()
+![alt text](readme-assets/Contact us page.png)
 
 ### Future Implementations
 
@@ -193,8 +235,8 @@ HTML, CSS
 
 ### Frameworks, Libraries & Programs Used
 
-**Chrome Devtool** - for the responsiveness of the website despite having to add a media query for the 1000px breakpoint so that the site looked better on mobile and tablets.
-**Github** - I used GitHub for the storage of my site and Gitpages to pubish my website.\
+**Chrome Devtool** - for the responsiveness of the website despite having to add a media query for different breakpoints so that the site looked better on mobile and tablets and on bigger screens.
+**Github** - I stored my website on GitHub and used Gitpages to publish it.
 
 ## Deployment & Local Development
 
@@ -224,8 +266,8 @@ Here's how I made it happen:
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-![alt text]() - Pass
-![alt text]() - Pass
+![alt text](readme-assets/css validator.png) - Pass
+![alt text](readme-assets/html validator.png) - Pass
 
 ### Lighthouse
 
@@ -233,15 +275,15 @@ I relied on Chrome's Lighthouse developer tool to assess my site's performance. 
 
 ### Index page
 
-![alt text]()
+![alt text](readme-assets/Text home page.png)
 
 ### Gallery page
 
-![alt text]()
+![alt text](readme-assets/text gallery page.png)
 
 ### Contact page
 
-![alt text]()
+![alt text](readme-assets/text contact page.png)
 
 ### Full Testing
 
@@ -287,6 +329,7 @@ Additional testing was taken by friends on a variety of devices and screen sizes
 
 ### Code Used
 
+Some of the love running project codes, such as the menu for phones.
 
 ### Content
 I wrote the content about syria on the home page and used chat gpt to correct it.
