@@ -51,7 +51,7 @@ This is the static website about the country Syria, the home page talks about Sy
   - [Credits](#credits)
     - [Code Used](#code-used)
     - [Content](#content)
-    - [ Media](#media)
+    - [Media](#media)
     - [Acknowledgments](#acknowledgments)
 
 ## Target Audience
