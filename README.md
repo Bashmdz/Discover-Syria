@@ -105,7 +105,7 @@ We've selected the Libre Baskerville font for its clean, modern, and approachabl
 
 ### Mobile view
 
-![alt text](readme-assets/Mobile view.png)<br>
+![alt text](readme-assets/Mobile-view.png)<br>
 
 Balsamiq was used to design the wireframes
 
