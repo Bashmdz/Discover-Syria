@@ -51,7 +51,7 @@ This is the static website about the country Syria, the home page talks about Sy
   - [Credits](#credits)
     - [Code Used](#code-used)
     - [Content](#content)
-    - [Media](#media)
+    - [ Media](#media)
     - [Acknowledgments](#acknowledgments)
 
 ## Target Audience
@@ -100,7 +100,7 @@ We've selected the Libre Baskerville font for its clean, modern, and approachabl
 
 ### Contact us
 
-![alt text](readme-assets/Contact us.png)<br>
+![alt text](readme-assets/Contact-us.png)<br>
 
 ### Mobile view
 
@@ -121,7 +121,7 @@ Desktop version nav bar with menu
 ![alt text](readme-assets/desktopnavbar.png)
 
 Mobile version nav bar hamburger menu
-![alt text](readme-assets/Menu 1.png)
+![alt text](readme-assets/Menu-1.png)
 ### Footer with social media icons
 
 I added three social media icons for instagram, facebook and twitter.
@@ -134,19 +134,19 @@ I added three social media icons for instagram, facebook and twitter.
 
 On the landing page, you'll dive into the vibrant culture and breathtaking landscapes of Syria through a quick intro. I added a visual map for context and a captivating video that truly captures Syria's essence.
 
-![alt text](readme-assets/Home page.png)
+![alt text](readme-assets/Home-page.png)
 
 ### Gallery Page
 
 The Gallery page highlights various tourism destinations in Syria, focusing on clean aesthetics and a welcoming atmosphere. It offers a glimpse into these locations and the positive vibes they exude. With responsive design, it adapts to various screen sizes, ensuring an enjoyable viewing experience. Get a preview of what's in store at these remarkable destinations in Syria.
 
-![alt text](readme-assets/Gallery page.png)
+![alt text](readme-assets/Gallery-page.png)
 
 ### Contact us page
 
 The Contact Us page provides a distinctive experience. It hosts a contact form against a looping video backdrop showcasing Syria's beauty. Additionally, the contact button features a hover animation for an engaging touch.
 
-![alt text](readme-assets/Contact us page.png)
+![alt text](readme-assets/Contact-us-page.png)
 
 ### Future Implementations
 
@@ -169,8 +169,6 @@ I harnessed a variety of technologies to craft and fine-tune this project:
 **HTML5** The foundation of my site is built on HTML version 5.
 
 **CSS** CSS was instrumental in shaping the website's aesthetics, defining fonts, and structuring the layout.
-
-**Bootstrap** I leveraged Bootstrap for aligning elements and creating components like the Navbar, accordion, carousel, flip cards, and forms.
 
 **Google Maps** Embedded Google Maps enriched the site with location-related information.
 
@@ -219,8 +217,8 @@ Here's how I made it happen:
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-![alt text](readme-assets/css validator.png) - Pass
-![alt text](readme-assets/html validator.png) - Pass
+![alt text](readme-assets/css-validator.png) - Pass
+![alt text](readme-assets/html-validator.png) - Pass
 
 ### Lighthouse
 
@@ -228,15 +226,15 @@ I relied on Chrome's Lighthouse developer tool to assess my site's performance. 
 
 ### Index page
 
-![alt text](readme-assets/Text home page.png)
+![alt text](readme-assets/Text-home-page.png)
 
 ### Gallery page
 
-![alt text](readme-assets/text gallery page.png)
+![alt text](readme-assets/text-gallery-page.png)
 
 ### Contact page
 
-![alt text](readme-assets/text contact page.png)
+![alt text](readme-assets/text-contact-page.png)
 
 ### Full Testing
 
