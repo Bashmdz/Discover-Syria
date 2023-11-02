@@ -122,6 +122,7 @@ Desktop version nav bar with menu
 
 Mobile version nav bar hamburger menu
 ![alt text](readme-assets/Menu-1.png)
+
 ### Footer with social media icons
 
 I added three social media icons for instagram, facebook and twitter.
