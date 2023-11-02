@@ -48,6 +48,7 @@ This is the static website about the country Syria, the home page talks about Sy
     - [Gallery page](#gallery-page-1)
     - [Contact page](#contact-page)
     - [Full Testing](#full-testing)
+  - [Bugs](#bugs)
   - [Credits](#credits)
     - [Code Used](#code-used)
     - [Content](#content)
@@ -276,6 +277,9 @@ Additional testing was taken by friends on a variety of devices and screen sizes
 | Contact form | When items were left out the was a message asking to fill the section in| Clicked submit while leaving form unfillled | Form requested sections to be filled in | Pass |
 
  - - -
+## Bugs
+
+I faced only one bug with the loop video in the contact us page, it was extending under the footer and i fixed it by adjusting the video position from the bottom to the top.
 
 ## Credits
 
