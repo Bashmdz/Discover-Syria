@@ -2,7 +2,7 @@
 
 This is the static website about the country Syria, the home page talks about Syria and it's history, the website has a gallery page with different pictures about Syria and a contact form page. It is designed to be responsive on all devices so tourist can explore about the country from any device.
 
-![fully responsive website example image](assets/images/features/amiresponsive.jpg)
+![fully responsive website example image](readme-assets/amiresponsive.webp)
 
 ---
 
