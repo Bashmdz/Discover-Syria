@@ -281,6 +281,8 @@ Additional testing was taken by friends on a variety of devices and screen sizes
 
 I faced only one bug with the loop video in the contact us page, it was extending under the footer and i fixed it by adjusting the video position from the bottom to the top.
 
+![alt text](readme-assets/Bug.png)
+
 ## Credits
 
 ### Code Used
